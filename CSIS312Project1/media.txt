@@ -1,0 +1,18 @@
+# magazine format is m,title, date, cost per issue, issues per year
+# book format is b,title, date, author, cost
+
+m,Cottage, 2018, 3.50, 12
+m,Do It Yourself, 2017, 3.00, 12
+m,HGTV, 2016, 4.00, 6
+m,Better Trailers,2016,1.75,12
+m,Pork Skins Aficionado,2016,1.25,6 
+m,American Farmhouse, 2018, 3.25, 6
+b,Treasure Island, 1883, Stevenson, 15
+b,The Call of the Wild, 1903, London, 10
+b,The Wind in the Willows, 1908, Grahame, 8
+b,Oliver Twist,1838,Dickens,6
+b,The Hunter of Fall, 1883, Ganghofer, 5
+b,A Struggle for Fame, 1883, Riddell, 10
+b,As A Man Thinketh, 1903, Allen, 12
+b,The Beast of the Jungle, 1903, James, 14
+b,The Wizard of Oz, 1903, Baum, 20
