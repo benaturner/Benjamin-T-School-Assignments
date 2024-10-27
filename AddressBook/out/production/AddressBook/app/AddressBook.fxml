@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller">
+    <children>
+        <HBox alignment="BOTTOM_CENTER" layoutY="14.0" prefHeight="56.0" prefWidth="294.0">
+            <children>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@lu-logo.jpg" />
+               </image>
+            </ImageView>
+                <Label prefHeight="22.0" prefWidth="221.0" text="My Address Book">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                </Label>
+            </children>
+            <padding>
+                <Insets bottom="5.0" />
+            </padding>
+        </HBox>
+        <HBox alignment="TOP_RIGHT" layoutX="294.0" layoutY="14.0" prefWidth="294.0" spacing="5.0" AnchorPane.bottomAnchor="330.0" AnchorPane.topAnchor="20.0">
+            <children>
+                <Button fx:id="clearButton" mnemonicParsing="false" onAction="#clearEntry" text="Clear">
+                    <padding>
+                        <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+                    </padding></Button>
+                <Button fx:id="findButton" mnemonicParsing="false" onAction="#findEntry" text="Find">
+                    <padding>
+                        <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+                    </padding></Button>
+                <Button fx:id="updateButton" mnemonicParsing="false" onAction="#updateEntry" text="Update">
+                    <padding>
+                        <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+                    </padding></Button>
+                <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#deleteEntry" text="Delete" textFill="RED">
+                    <padding>
+                        <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+                    </padding></Button>
+            </children>
+        </HBox>
+        <HBox alignment="BOTTOM_RIGHT" layoutX="12.0" layoutY="56.0" prefHeight="40.0" prefWidth="574.0">
+            <children>
+                <TextField fx:id="firstNameInputField" prefHeight="26.0" prefWidth="74.0" />
+                <TextField fx:id="lastNameInputField" prefHeight="26.0" prefWidth="78.0" />
+                <TextField fx:id="birthdayInputField" prefHeight="26.0" prefWidth="100.0" />
+                <TextField fx:id="addressInputField" prefHeight="26.0" prefWidth="119.0" />
+                <TextField fx:id="cityInputField" prefHeight="26.0" prefWidth="88.0" />
+                <TextField fx:id="stateInputField" prefHeight="26.0" prefWidth="50.0" />
+                <TextField fx:id="zipInputField" prefHeight="26.0" prefWidth="70.0" />
+            </children>
+        </HBox>
+        <TableView fx:id="addressBookTable" layoutX="12.0" layoutY="96.0" prefHeight="296.0" prefWidth="574.0">
+            <columns>
+                <TableColumn fx:id="firstNameColumn" prefWidth="72.7999906539917" text="First" />
+                <TableColumn fx:id="lastNameColumn" prefWidth="76.5" text="Last" />
+                <TableColumn fx:id="birthdayColumn" prefWidth="99.0" text="Birthday" />
+                <TableColumn fx:id="addressColumn" prefWidth="118.5" text="Address" />
+                <TableColumn fx:id="cityColumn" prefWidth="88.5" text="City" />
+                <TableColumn fx:id="stateColumn" prefWidth="49.5" text="State" />
+                <TableColumn fx:id="zipColumn" prefWidth="68.0" text="Zip" />
+            </columns>
+        </TableView>
+    </children>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+    </padding>
+</AnchorPane>
