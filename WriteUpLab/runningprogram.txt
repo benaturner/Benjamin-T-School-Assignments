@@ -1,0 +1,35 @@
+// turner
+
+#include <iostream>
+using namespace std;
+
+class studentType
+{
+private:
+    string firstName = " ";
+public:
+    string lastName = " ";
+    void displayFirstName();
+    string getFirstName()
+    {
+        return firstName;
+    }
+    void setFirstName(string spaghetti)
+    {
+        firstName = spaghetti;
+    }
+};
+
+void studentType::displayFirstName()
+{
+    cout << firstName;
+}
+
+int main()
+{
+    studentType libertyStudent;
+    libertyStudent.setFirstName("Ben");
+    libertyStudent.lastName = "Turner";
+    libertyStudent.displayFirstName();
+    cout << libertyStudent.lastName;
+}

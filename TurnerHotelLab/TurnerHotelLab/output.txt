@@ -1,0 +1,7 @@
+                         Cost of renting one room:    125.63
+                       Discount rate per room (%):         0
+Number of rooms booked:5
+number of days booked:3
+Total cost of the rooms:1884.45
+Sales Tax: 103.64
+Total Billing Amount: 1988.09

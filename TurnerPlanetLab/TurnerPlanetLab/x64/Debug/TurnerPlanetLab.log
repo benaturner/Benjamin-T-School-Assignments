@@ -1,0 +1,12 @@
+﻿  TurnerPlanetLab.cpp
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerPlanetLab\TurnerPlanetLab\TurnerPlanetLab.cpp(25,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerPlanetLab\TurnerPlanetLab\TurnerPlanetLab.cpp(92,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerPlanetLab\TurnerPlanetLab\TurnerPlanetLab.cpp(95,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerPlanetLab\TurnerPlanetLab\TurnerPlanetLab.cpp(98,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerPlanetLab\TurnerPlanetLab\TurnerPlanetLab.cpp(101,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerPlanetLab\TurnerPlanetLab\TurnerPlanetLab.cpp(104,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerPlanetLab\TurnerPlanetLab\TurnerPlanetLab.cpp(107,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerPlanetLab\TurnerPlanetLab\TurnerPlanetLab.cpp(110,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerPlanetLab\TurnerPlanetLab\TurnerPlanetLab.cpp(113,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerPlanetLab\TurnerPlanetLab\TurnerPlanetLab.cpp(116,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  TurnerPlanetLab.vcxproj -> C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerPlanetLab\x64\Debug\TurnerPlanetLab.exe

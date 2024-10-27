@@ -1,0 +1,4 @@
+﻿  TurnerFitnessLab.cpp
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerFitnessLab\TurnerFitnessLab\TurnerFitnessLab.cpp(104,46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerFitnessLab\TurnerFitnessLab\TurnerFitnessLab.cpp(114,49): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  TurnerFitnessLab.vcxproj -> C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerFitnessLab\x64\Debug\TurnerFitnessLab.exe

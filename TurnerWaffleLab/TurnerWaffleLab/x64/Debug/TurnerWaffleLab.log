@@ -1,0 +1,3 @@
+﻿  TurnerWaffleLab.cpp
+C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerWaffleLab\TurnerWaffleLab\TurnerWaffleLab.cpp(88,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  TurnerWaffleLab.vcxproj -> C:\Users\bent3\OneDrive\Documents\CSCN 111 Visual Studio Work\TurnerWaffleLab\x64\Debug\TurnerWaffleLab.exe
