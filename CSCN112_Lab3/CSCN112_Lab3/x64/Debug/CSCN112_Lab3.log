@@ -1,0 +1,12 @@
+﻿  House.cpp
+C:\Users\bent3\OneDrive\Documents\Programming Stuff\CSCN 112 Visual Studio Work\Labs\CSCN112_Lab3\CSCN112_Lab3\House.h(14): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\bent3\OneDrive\Documents\Programming Stuff\CSCN 112 Visual Studio Work\Labs\CSCN112_Lab3\CSCN112_Lab3\House.h(15): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\bent3\OneDrive\Documents\Programming Stuff\CSCN 112 Visual Studio Work\Labs\CSCN112_Lab3\CSCN112_Lab3\House.cpp(49,21): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  PaintDriver.cpp
+C:\Users\bent3\OneDrive\Documents\Programming Stuff\CSCN 112 Visual Studio Work\Labs\CSCN112_Lab3\CSCN112_Lab3\House.h(14): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\bent3\OneDrive\Documents\Programming Stuff\CSCN 112 Visual Studio Work\Labs\CSCN112_Lab3\CSCN112_Lab3\House.h(15): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\bent3\OneDrive\Documents\Programming Stuff\CSCN 112 Visual Studio Work\Labs\CSCN112_Lab3\CSCN112_Lab3\PaintDriver.cpp(128,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Room.cpp
+C:\Users\bent3\OneDrive\Documents\Programming Stuff\CSCN 112 Visual Studio Work\Labs\CSCN112_Lab3\CSCN112_Lab3\Room.cpp(70,13): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  CSCN112_Lab3.vcxproj -> C:\Users\bent3\OneDrive\Documents\Programming Stuff\CSCN 112 Visual Studio Work\Labs\CSCN112_Lab3\x64\Debug\CSCN112_Lab3.exe
